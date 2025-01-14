@@ -1078,13 +1078,13 @@ sections:
                 superscript: "write-through"
                 references: 
                   - "이것이_취업을_위한_컴퓨터과학이다/104_페이지"
-                image: "assets/img/arch/writeback.png"
+                image: "assets/img/arch/writethrough.png"
               - term: "지연 쓰기"
                 description: "캐시 메모리에만 값을 써 두었다가 추후 데이터를 한 번에 메모리에 반영하는 캐시 메모리 쓰기 정책"
                 superscript: "write-back"
                 references: 
                   - "이것이_취업을_위한_컴퓨터과학이다/104_페이지"
-                image: "assets/img/arch/writethrough.png"
+                image: "assets/img/arch/writeback.png"
 
       - subtitle: "보조기억장치"
         content:
