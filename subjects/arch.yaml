@@ -51,6 +51,7 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/38_페이지"
               - term: "보조기억장치"
                 description: "하드 디스크, SSD, USB 메모리, DVD, CD-ROM과 같이 메모리보다 크기가 크고 전원이 꺼져도 저장된 내용을 잃지 않는 저장 장치 <br>메모리가 현재 실행되는 프로그램을 저장한다면, 보조기억장치는 보관할 프로그램을 저장"
+                superscript: "secondary storage"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/45_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/40_페이지"
@@ -140,19 +141,23 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/46_페이지"
               - term: "이진수"
                 description: "이진법으로 표현한 수"
+                superscript: "binary number"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/57_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/46_페이지"
               - term: "십진수"
                 description: "십진법으로 표현한 수"
+                superscript: "decimal number"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/57_페이지"
               - term: "1의 보수"
                 description: "모든 이진수의 0과 1을 뒤집은 수"
+                superscript: "1's complement"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/59_페이지"
               - term: "2의 보수"
                 description: "어떤 수를 그보다 큰 2^n에서 뺀 값(=모든 0과 1을 뒤집고, 거기에 1을 더한 값)"
+                superscript: "2's complement"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/58_페이지"
               - term: "플래그"
@@ -201,11 +206,13 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/51_페이지"
               - term: "아스키 문자"
                 description: "아스키 문자 집합에 속한 문자"
+                superscript: "ASCII character"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/68_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/52_페이지"
               - term: "아스키 코드"
                 description: "아스키 문자에 대응된 고유한 수 <br>아스키 문자들은 0부터 127까지 총 128개의 숫자 중 하나의 고유한 수에 일대일로 대응됨"
+                superscript: "ASCII code"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/69_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/52_페이지"
@@ -284,10 +291,12 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/62_페이지"
               - term: "컴파일 언어"
                 description: "컴파일 방식으로 작동하는 프로그래밍 언어 컴파일러에 의해 소스 코드 전체가 저급 언어로 변환되어 실행되는 고급 언어"
+                superscript: "compiled language"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/83_페이지"
               - term: "인터프리터 언어"
                 description: "인터프리트 방식으로 작동하는 프로그래밍 언어"
+                superscript: "interpreted language"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/83_페이지"
               - term: "컴파일"
@@ -312,10 +321,12 @@ sections:
                   - "혼자_공부하는_컴퓨터구조_운영체제/84_페이지"
               - term: "목적 파일"
                 description: "목적 코드로 이루어진 파일"
+                superscript: "object file"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/87_페이지"
               - term: "실행 파일"
                 description: "링킹을 거쳐 만들어진 실행 코드로 이루어진 파일"
+                superscript: "executable file"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/87_페이지"
               - term: "링킹"
@@ -328,6 +339,7 @@ sections:
             items:
               - term: "명령어의 구조"
                 description: "연산 코드와 오퍼랜드로 구성"
+                superscript: "instruction structure"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/91_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/59_페이지"
@@ -346,28 +358,34 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/59_페이지"
               - term: "연산 코드 필드"
                 description: "명령어의 연산 코드가 담기는 영역"
+                superscript: "operation code field"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/91_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/60_페이지"
               - term: "오퍼랜드 필드"
                 description: "명령어의 오퍼랜드가 담기는 영역 (주소 필드라고도 부름)"
+                superscript: "operand field"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/91_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/60_페이지"
               - term: "0-주소 명령어"
                 description: "오퍼랜드가 하나도 없는 명령어"
+                superscript: "zero-address instruction"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/93_페이지"
               - term: "1-주소 명령어"
                 description: "오퍼랜드가 하나인 명령어"
+                superscript: "one-address instruction"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/93_페이지"
               - term: "2-주소 명령어"
                 description: "오퍼랜드가 두 개인 명령어"
+                superscript: "two-address instruction"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/93_페이지"
               - term: "3-주소 명령어"
                 description: "오퍼랜드가 세 개인 명령어"
+                superscript: "three-address instruction"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/93_페이지"
               - term: "유효 주소"
