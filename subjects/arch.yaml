@@ -461,26 +461,32 @@ sections:
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "부호 플래그"
                 description: "연산한 결과의 부호를 나타내는 플래그"
+                superscript: "sign flag; nagative flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "제로 플래그"
                 description: "연산 결과가 0인지 여부를 나타내는 플래그"
+                superscript: "zero flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "캐리 플래그"
                 description: "연산 결과 올림수나 빌림수가 발생했는지 나타내는 플래그"
+                superscript: "carry flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "오버플로우 플래그"
                 description: "오버플로우가 발생했는지 나타내는 플래그"
+                superscript: "overflow flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "인터럽트 플래그"
                 description: "인터럽트가 가능한지 여부를 나타내는 플래그"
+                superscript: "interrupt flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "슈퍼바이저 플래그"
                 description: "커널 모드로 실행 중인지, 사용자 모드로 실행중인지 나타내는 플래그"
+                superscript: "supervisor flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "오버플로우"
@@ -490,14 +496,17 @@ sections:
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "플래그 레지스터"
                 description: "플래그 값들을 저장하는 레지스터"
+                superscript: "flag register"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/106_페이지"
               - term: "제어장치"
                 description: "CPU의 구성 요소로, 제어 신호를 내보내고, 명령어를 해석하는 부품<br>클럭, 현재 수행할 명령어, 플래그, 제어 신호를 받아들임"
+                superscript: "control unit"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/107_페이지"
               - term: "제어 신호"
                 description: "컴퓨터 부품들을 관리하고 작동시키기 위한 일종의 전기 신호"
+                superscript: "control signal"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/107_페이지"
               - term: "클럭"
@@ -561,6 +570,7 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/69_페이지"
               - term: "스택 주소 지정 방식"
                 description: "스택과 스택 포인터를 이용한 주소 지정 방식"
+                superscript: "stack addressing mode"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/119_페이지"
               - term: "변위 주소 지정 방식"
@@ -637,10 +647,12 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/71_페이지"
               - term: "인터럽트 요청 신호"
                 description: "인터럽트 가능 여부를 확인하기 위해 CPU에게 보내는 신호"
+                superscript: "IRQ signal"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/132_페이지"
               - term: "인터럽트 플래그"
                 description: "하드웨어 인터럽트를 받아들일지, 무시할지를 결정하는 플래그"
+                superscript: "IF; interrupt flag"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/133_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/72_페이지"
@@ -723,6 +735,7 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/80_페이지"
               - term: "멀티코어 프로세서"
                 description: "여러 개의 코어를 포함하는 CPU"
+                superscript: "multi-core processor"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/147_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/80_페이지"
@@ -734,6 +747,7 @@ sections:
                   - "이것이_취업을_위한_컴퓨터과학이다/80_페이지"
               - term: "하드웨어적 스레드"
                 description: "하나의 코어가 동시에 처리하는 명령어 단위"
+                superscript: "hardware thread"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/149_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/80_페이지"
@@ -755,6 +769,7 @@ sections:
                   - "혼자_공부하는_컴퓨터구조_운영체제/149_페이지"
               - term: "소프트웨어적 스레드"
                 description: "하나의 프로그램에서 독립적으로 실행되는 단위"
+                superscript: "software thread"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/150_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/81_페이지"
@@ -880,6 +895,7 @@ sections:
             items:
               - term: "RAM"
                 description: "메인 메모리로써 사용되는 휘발성 저장 장치"
+                superscript: "Random Access Memory"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/179_페이지"
                   - "이것이_취업을_위한_컴퓨터과학이다/90_페이지"
@@ -1008,6 +1024,7 @@ sections:
                 image: "assets/img/os/mmu.png"
               - term: "베이스 레지스터"
                 description: "프로그램의 가장 작은 물리 주소를 저장하는 레지스터"
+                superscript: "base register"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/190_페이지"
               - term: "한계 레지스터"
@@ -1240,6 +1257,7 @@ sections:
                   - "혼자_공부하는_컴퓨터구조_운영체제/214_페이지"
               - term: "QLC 타입"
                 description: "한 셀에 4비트를 저장할 수 있는 플래시 메모리 유형"
+                superscript: "Quad-Level Cell"
                 references: 
                   - "혼자_공부하는_컴퓨터구조_운영체제/214_페이지"
               - term: "페이지"
